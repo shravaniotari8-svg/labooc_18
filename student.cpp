@@ -25,8 +25,14 @@ class Student
         }; 
         int main() 
             {
-                 Student s;
+                 Student s,s1,s2;
+                  s1.inputDetails();
+                  s2.inputDetails();
                   s.inputDetails(); 
+                  
+
                   s.displayDetails(); 
+                  s1.displayDetails();
+                  s2.displayDetails();
                   return 0; 
             } 
